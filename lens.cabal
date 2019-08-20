@@ -325,8 +325,6 @@ library
   other-modules:
     Paths_lens
 
-  cpp-options: -traditional
-
   if flag(safe)
     cpp-options: -DSAFE=1
 
